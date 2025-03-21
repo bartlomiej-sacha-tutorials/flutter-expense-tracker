@@ -88,7 +88,7 @@ class _NewExpenseState extends State<NewExpense> {
       height: double.infinity,
       child: SingleChildScrollView(
         child: Padding(
-          padding: EdgeInsets.fromLTRB(16, 48, 16, keyboardSpace + 16),
+          padding: EdgeInsets.fromLTRB(16, 16, 16, keyboardSpace + 16),
           child: Column(
             children: [
               TextField(
@@ -108,7 +108,7 @@ class _NewExpenseState extends State<NewExpense> {
                       ),
                     ),
                   ),
-                  const SizedBox(width: 16),
+                  const SizedBox(width: 4),
                   Expanded(
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.end,
